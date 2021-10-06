@@ -195,7 +195,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
 }
 
@@ -265,7 +265,7 @@ nav p {
 } */
 
 /* Floats Example */
-
+/* 
 .author {
   float: right;
   margin-top: 10px;
@@ -289,7 +289,7 @@ nav {
   clear: both;
 } */
 
-.clearfix::after {
+/* .clearfix::after {
   clear: both;
   content: "";
   display: block;
@@ -309,4 +309,64 @@ aside {
 
 footer {
   clear: both;
+} */
+
+
+/* Flex Box */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.author-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.author {
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-weight: normal;
+}
+
+.related-author {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* li img {
+  margin-right: 10px;
+} */
+
+.row {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+article {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+aside {
+  flex: 0 0 300px;
+}
+
