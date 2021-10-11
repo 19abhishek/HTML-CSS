@@ -80,6 +80,7 @@ h1 {
 
 img {
   width: 100%;
+  border-radius: 10px;
 }
 
 /* FEATURES */
@@ -95,11 +96,14 @@ img {
 .features-text {
   font-size: 18px;
   line-height: 1.7;
-
 }
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #ff8fa3;
+  color: #fff0f3;
+  padding: 30px;
+  border-radius: 30px;
 }
 
 .testimonial-box {
@@ -121,6 +125,11 @@ img {
 }
 
 /* CHAIRS */
+
+.chair {
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+}
 .chair-box {
   padding: 24px;
 }
@@ -158,4 +167,51 @@ footer {
   margin-bottom: 48px;
   font-size: 14px;
   color: #383b3f;
+}
+
+/* Buttons */
+
+.btn:link,
+.btn:visited {
+  background-color: #ff8fa3;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #ff758f;
+  
+}
+
+.btn--big {
+  font-size: 18px;
+  padding: 10px 12px;
+}
+
+.btn--small {
+  font-size: 14px;
+  padding: 8px 10px;
+}
+
+/* Icons */
+
+.icon {
+  align-items: center;
+}
+
+.feature-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 24px;
+  /* align-self: center; */
+}
+
+.chair-icon {
+  width: 24px;
+  height: 24px;
 }
